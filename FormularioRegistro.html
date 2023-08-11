@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="nav-item">Home</a>
+        <a href="FormularioRegistro.html" class="nav-item">Formulario de Registro</a>
+        <a href="Sugerencias.html" class="nav-item">Formulario de Sugerencias</a>
+    </nav>
+
+    <div class="formulario">
+        <h2>Formulario de Registro</h2>
+        <form>
+          <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+          </div>
+          <div>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos">
+          </div>
+          <div>
+            <label for="dui">DUI</label>
+            <input type="text" id="dui" name="dui">
+          </div>
+          <div>
+            <label for="telefono">Teléfono</label>
+            <input type="text" id="telefono" name="telefono">
+          </div>
+          <div>
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="correo">
+          </div>
+          <div>
+            <label for="departamento">Departamento</label>
+            <select id="departamento" name="departamento">
+              <option value="departamento1">San Miguel</option>
+              <option value="departamento2">Morazan</option>
+              
+            </select>
+          </div>
+          <div>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="contraseña" name="contraseña">
+          </div>
+          <div class="btn-container">
+            <button class="btn" type="submit">Guardar</button>
+            <button class="btn" type="button">Cancelar</button>
+          </div>
+        </form>
+      </div>
+</body>
+</html>
